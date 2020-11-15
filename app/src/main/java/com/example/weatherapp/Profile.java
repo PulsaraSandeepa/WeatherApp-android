@@ -108,7 +108,7 @@ public class Profile extends AppCompatActivity {
 
             private void api_key(final String City) {
                 OkHttpClient client = new OkHttpClient();
-                Request request = new Request.Builder().url("https://api.openweathermap.org/data/2.5/weather?q=" + City + "&appid=dc9ee166709fe976649761c173f7b58e&units=metric")
+                Request request = new Request.Builder().url("#")
                         .get()
                         .build();
                 StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
